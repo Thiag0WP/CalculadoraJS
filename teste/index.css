@@ -1,0 +1,53 @@
+div {
+  display: flex;
+}
+
+button {
+  margin: 8px;
+}
+
+.calculadora {
+  width: 30%;
+  height: auto;
+  background-color: lightgrey;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  flex-direction: column;
+}
+
+.numbers {
+  flex-direction: column;
+}
+
+.numb {
+  flex-direction: row;
+}
+
+.numb button {
+  background-color: #525252;
+}
+
+.operacao {
+  flex-direction: column;
+}
+
+.operacao button {
+  background-color: ;
+}
+
+.buttons button {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.buttons {
+  align-items: center;
+}
