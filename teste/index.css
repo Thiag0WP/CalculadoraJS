@@ -7,8 +7,8 @@ button {
 }
 
 .calculadora {
-  width: 30%;
-  height: auto;
+  width: 98%;
+  height: 800px;
   background-color: lightgrey;
   padding: 20px;
   flex-direction: column;
@@ -17,8 +17,8 @@ button {
 }
 
 .display {
-  background-color: black;
-  width: 100%;
+  background-color: rgb(0, 0, 0);
+  width: 50%;
   height: 50px;
   flex-direction: column;
 }
@@ -29,10 +29,13 @@ button {
 
 .numb {
   flex-direction: row;
+  justify-content: center;
 }
 
 .numb button {
   background-color: #525252;
+  height: 40px;
+  width: 40px;
 }
 
 .operacao {
@@ -40,7 +43,9 @@ button {
 }
 
 .operacao button {
-  background-color: ;
+  height: 40px;
+  width: 40px;
+  background-color: gray;
 }
 
 .buttons button {
@@ -50,4 +55,14 @@ button {
 
 .buttons {
   align-items: center;
+}
+
+.dois {
+  flex-direction: column;
+}
+
+.resul button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
 }
