@@ -66,3 +66,7 @@ button {
   height: 30px;
   cursor: pointer;
 }
+
+.keys {
+  flex-direction: column;
+}
