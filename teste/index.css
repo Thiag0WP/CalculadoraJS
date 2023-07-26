@@ -49,18 +49,26 @@ table {
   cursor: pointer;
 }
 
+.cbutton:hover {
+  background-color: #545454;
+}
+
 img {
   width: 350px;
 }
 
 #display {
   border-radius: 5px;
-  width: 300px;
-  background-color: lightgray;
+  width: 305px;
+  background-color: #d3d3d3;
   height: 80px;
   font-size: 25px;
   color: black;
   text-align: right;
   cursor: text;
   font-size: 40px;
+}
+
+#display:hover {
+  background-color: #c3c3c3;
 }
