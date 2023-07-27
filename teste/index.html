@@ -16,6 +16,20 @@
                </div>
                <!-- <p id="display"></p> -->
                <div id="display">
+                    <script>
+                         var pressed = document.getElementById('display');
+
+                         function keyPressed(evt){
+                              evt = evt || window.event;
+                              var key = evt.keyCode || evt.which;
+                              return String.fromCharCode(key); 
+                         }
+
+                         document.onkeypress = function(evt) {
+                              var str = keyPressed(evt);
+                              pressed.innerHTML += str;
+                         };
+                    </script>
                </div>
                <table>
                     <tr>
